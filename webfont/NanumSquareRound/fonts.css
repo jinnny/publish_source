@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: 'Nanum Square Round';
+  font-family: 'NanumSquareRound';
   font-weight: 300;
   src: url('fonts/NanumSquareRoundL.eot');
   src: url('fonts/NanumSquareRoundL.eot?#iefix') format('embedded-opentype'),
@@ -9,8 +9,9 @@
   url('fonts/NanumSquareRoundL.ttf') format('truetype');
 }
 
+/*normal 400*/
 @font-face {
-  font-family: 'Nanum Square Round';
+  font-family: 'NanumSquareRound';
   font-weight: 400;
   src: url('fonts/NanumSquareRoundR.eot');
   src: url('fonts/NanumSquareRoundR.eot?#iefix') format('embedded-opentype'),
@@ -19,9 +20,10 @@
   url('fonts/NanumSquareRoundR.ttf') format('truetype');
 }
 
+/*bold 700*/
 @font-face {
-  font-family: 'Nanum Square Round';
-  font-weight: 600;
+  font-family: 'NanumSquareRound';
+  font-weight: 700;
   src: url('fonts/NanumSquareRoundB.eot');
   src: url('fonts/NanumSquareRoundB.eot?#iefix') format('embedded-opentype'),
   url('fonts/NanumSquareRoundB.woff2') format('woff2'),
@@ -30,8 +32,8 @@
 }
 
 @font-face {
-  font-family: 'Nanum Square Round';
-  font-weight: 700;
+  font-family: 'NanumSquareRound';
+  font-weight: 800;
   src: url('fonts/NanumSquareRoundEB.eot');
   src: url('fonts/NanumSquareRoundEB.eot?#iefix') format('embedded-opentype'),
   url('fonts/NanumSquareRoundEB.woff2') format('woff2'),

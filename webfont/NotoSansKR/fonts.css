@@ -20,7 +20,7 @@
   url('fonts/NotoSansKR-Light.woff') format('woff'),
   url('fonts/NotoSansKR-Light.otf') format('opentype');
 }
-
+/*normal*/
 @font-face {
   font-family: 'NotoSansKR';
   font-weight: 400;
@@ -33,7 +33,7 @@
 
 @font-face {
   font-family: 'NotoSansKR';
-  font-weight: 500;
+  font-weight: 600;
   src: url('fonts/NotoSansKR-Medium.eot');
   src: url('fonts/NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
   url('fonts/NotoSansKR-Medium.woff2') format('woff2'),
@@ -41,6 +41,7 @@
   url('fonts/NotoSansKR-Medium.otf') format('opentype');
 }
 
+/*bold*/
 @font-face {
   font-family: 'NotoSansKR';
   font-weight: 700;
