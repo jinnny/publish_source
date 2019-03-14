@@ -22,10 +22,11 @@ css의 url 은 본인의 코드에 맞게 수정해주세요.
 4. 나눔스퀘어
    1. 한국어
    2. 경량화 X (한글 2,350자, 영문 94자, KS약물 986자)
-   3. Weight: 3종 (Light, Regular, Bold)
+   3. Weight: 3종 (Light, Regular, Bold, ExtraBold)
 5. 나눔스퀘어라운드
    1. 한국어
    2. 경량화 X (한글 2,350자, 영문 94자, KS약물 986자)
+   3. Weight: 3종 (Light, Regular, Bold, ExtraBold)
 6. 나눔바른고딕
    1. 한국어
    2. 경량화
