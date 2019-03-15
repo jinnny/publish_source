@@ -1,0 +1,23 @@
+/*normal 400*/
+/*나눔붓(손글씨)*/
+@font-face {
+  font-family: 'NanumBrush';
+  font-weight: 400;
+  src: url('fonts/NanumBrush.eot');
+  src: url('fonts/NanumBrush.eot?#iefix') format('embedded-opentype'),
+  url('fonts/NanumBrush.woff2') format('woff2'),
+  url('fonts/NanumBrush.woff') format('woff'),
+  url('fonts/NanumBrush.ttf') format('truetype');
+}
+
+/*normal 400*/
+/*나눔펜(손글씨)*/
+@font-face {
+  font-family: 'NanumPen';
+  font-weight: 400;
+  src: url('fonts/NanumPen.eot');
+  src: url('fonts/NanumPen.eot?#iefix') format('embedded-opentype'),
+  url('fonts/NanumPen.woff2') format('woff2'),
+  url('fonts/NanumPen.woff') format('woff'),
+  url('fonts/NanumPen.ttf') format('truetype');
+}
