@@ -8,6 +8,14 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+*, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
   @media all and (max-width: 900px) {
@@ -21,20 +29,14 @@ html {
   }
 }
 
-*, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
 a,
 a:hover,
 a:focus,
 a:active,
 a:link {
   text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 }
 
 img {
@@ -53,6 +55,8 @@ fieldset {
 }
 
 button {
+  border: 0;
+  background: none;
   cursor: pointer;
   &:focus {
     outline: none;
@@ -76,4 +80,13 @@ b {
 i {
   font-style: normal;
 }
+
+input,
+input:matches([type="password"], [type="search"]),
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+
 
