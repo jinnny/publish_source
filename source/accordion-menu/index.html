@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>테스트</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--상단 헤더-->
+
+<!--상단 헤더-->
+<!--좌측 메뉴-->
+<nav class="left-menu">
+  <ul class="menu-list">
+    <!--1차 메뉴 active 상태-->
+    <li class="menu-list__item accept-item active">
+      <a href="index.html" class="list-item__link js-list-item__link">A</a>
+    </li>
+    <!--2차 메뉴가 있는 경우-->
+    <li class="menu-list__item manage-item">
+      <a href="#" class="list-item__link js-list-item__link">
+        B
+        <button class="menu-list__button"><img src="images/icon-arrow-down.png" alt="하위 메뉴 열기"></button>
+      </a>
+
+      <ul class="menu-list-depth">
+        <li class="list-depth__item">
+          <!--2차메뉴 active 상태-->
+          <a href="index.html" class="list-item__link depth-item__link active">a</a>
+        </li>
+        <li class="list-depth__item">
+          <a href="#" class="list-item__link depth-item__link">b</a>
+        </li>
+        <li class="list-depth__item">
+          <a href="#" class="list-item__link depth-item__link">c</a>
+        </li>
+      </ul>
+    </li>
+    <!--2차 메뉴가 있는 경우-->
+
+    <li class="menu-list__item subcom-item">
+      <a href="index.html" class="list-item__link js-list-item__link">
+        C
+      </a>
+    </li>
+    <!--2차 메뉴가 있는 경우-->
+    <li class="menu-list__item combine-item">
+      <a href="index.html" class="list-item__link js-list-item__link">
+        D
+        <button class="menu-list__button"><img src="images/icon-arrow-down.png" alt="하위 메뉴 열기"></button>
+      </a>
+      <ul class="menu-list-depth">
+        <li class="list-depth__item">
+          <a href="index.html" class="list-item__link depth-item__link">a</a>
+        </li>
+        <li class="list-depth__item">
+          <a href="#" class="list-item__link depth-item__link">b</a>
+        </li>
+        <li class="list-depth__item">
+          <a href="#" class="list-item__link depth-item__link">c</a>
+        </li>
+      </ul>
+    </li>
+    <!--2차 메뉴가 있는 경우-->
+
+    <li class="menu-list__item option-item">
+      <a href="#" class="list-item__link js-list-item__link">E</a>
+    </li>
+  </ul>
+</nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        //1차 메뉴를 클릭했을때,
+        $('.menu-list__item > .js-list-item__link').click(function(e){
+            // 클릭한 대상의 부모(li - 1차메뉴)
+            let thisDepth1Li = $(this).parent('li');
+            // 클릭한 대상 부모(li - 1차메뉴)의 자식(ui - 2차메뉴)
+            let thisDepth2Ul =  $(this).parent('li').children('ul');
+
+            // 클릭한 대상의 부모(li)가 2차 메뉴를 가지고 있을 경우(하이퍼링크 비활성화)
+            if(thisDepth1Li.has('ul').length > 0){
+                //1차 메뉴는 링크 이동이 막기
+                e.preventDefault();
+
+                // 클릭한 대상의 부모(li)가 active 클래스를 가지고 있는 경우
+                if(thisDepth1Li.hasClass('active')) {
+                    // 모든 1차메뉴(li)에 active 클래스 제거
+                    $('.menu-list__item').removeClass('active');
+                    // 모든 2차메뉴(ul)를 닫고
+                    $('.menu-list__item .menu-list-depth').stop().slideUp();
+
+                    // 클릭한 대상의 부모 li가 active 클래스를 가지고 있지 않는 경우
+                }else {
+                    //  모든 1차메뉴(li)에 active 클래스 제거
+                    $('.menu-list__item').removeClass('active');
+                    // 모든 2차메뉴(ui)를 닫고
+                    $('.menu-list__item .menu-list-depth').stop().slideUp();
+                    // 클릭한 대상의 부모(li) 에 active 클래스 추가
+                    thisDepth1Li.addClass('active');
+                    // 클릭한 대상 부모(li)의 자식 ul(2차메뉴)에 active 클래스 추가
+                    thisDepth2Ul.stop().slideDown();
+                }
+
+                // 클릭한 대상의 부모(li)가 2차 메뉴를 가지지 않을 경우(하이퍼링크 활성화 그대로)
+            }else {
+                //  모든 1차메뉴(li)에 active 클래스 제거
+                $('.menu-list__item').removeClass('active');
+                // 클릭한 대상의 부모(li) 에 active 클래스 추가
+                thisDepth1Li.addClass('active');
+            }
+        });
+    })
+</script>
+</body>
+</html>
