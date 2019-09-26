@@ -47,6 +47,10 @@ css의 url 은 본인의 코드에 맞게 수정해주세요.
     1. 한국어
     2. 경량화 (기존: 한글 11,172자, 영문 94자, KS약물 986자)
     3. Weight: 3종 (Regular, Bold, ExtraBold)
+11. RobotoSlab
+    1. 영어, 숫자
+    2. 경량화 (0123456789,.만 포함- 숫자 표현시에만 사용)
+    3. Weight: 2종 (Regular, Bold) 
     
 * Weight의 경우  
     * ultralight = 100
@@ -68,4 +72,4 @@ css의 url 은 본인의 코드에 맞게 수정해주세요.
 Reset
 ----
 - Reset.css
-- 2월 28일 버전
+- 2019.09.18 버전
