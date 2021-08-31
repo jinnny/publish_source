@@ -1,0 +1,63 @@
+/*Light*/
+/*경량화 버전*/
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  font-weight: 200;
+  src: local('NotoSerifKR-ExtraLight'),
+  url('fonts/NotoSerifKR-ExtraLight.woff2') format('woff2'),
+  url('fonts/NotoSerifKR-ExtraLight.woff') format('woff'),
+  url('fonts/NotoSerifKR-ExtraLight.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  font-weight: 300;
+  src: local('NotoSerifKR-Light'),
+  url('fonts/NotoSerifKR-Light.woff2') format('woff2'),
+  url('fonts/NotoSerifKR-Light.woff') format('woff'),
+  url('fonts/NotoSerifKR-Light.otf') format('opentype');
+  font-display: swap;
+}
+/*normal*/
+@font-face {
+  font-family: 'NotoSerifKR';
+  font-weight: 400;
+  src: local('NotoSerifKR-Regular'),
+  url('fonts/NotoSerifKR-Regular.woff2') format('woff2'),
+  url('fonts/NotoSerifKR-Regular.woff') format('woff'),
+  url('fonts/NotoSerifKR-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  font-weight: 600;
+  src: local('NotoSerifKR-Medium'),
+  url('fonts/NotoSerifKR-Medium.woff2') format('woff2'),
+  url('fonts/NotoSerifKR-Medium.woff') format('woff'),
+  url('fonts/NotoSerifKR-Medium.otf') format('opentype');
+  font-display: swap;
+}
+
+/*bold*/
+@font-face {
+  font-family: 'NotoSerifKR';
+  font-weight: 700;
+  src: local('NotoSerifKR-Bold'),
+  url('fonts/NotoSerifKR-Bold.woff2') format('woff2'),
+  url('fonts/NotoSerifKR-Bold.woff') format('woff'),
+  url('fonts/NotoSerifKR-Bold.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSerifKR';
+  font-weight: 800;
+  src: local('NotoSerifKR-Black'),
+  url('fonts/NotoSerifKR-Black.woff2') format('woff2'),
+  url('fonts/NotoSerifKR-Black.woff') format('woff'),
+  url('fonts/NotoSerifKR-Black.otf') format('opentype');
+  font-display: swap;
+}

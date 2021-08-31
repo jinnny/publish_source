@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'HANBatang';
+  font-weight: 600;
+  src: local('HANBatangB'), url('fonts/HANBatangB.eot');
+  src: url('fonts/HANBatangB.eot?#iefix') format('embedded-opentype'),
+  url('fonts/HANBatangB.woff2') format('woff2'),
+  url('fonts/HANBatangB.woff') format('woff'),
+  url('fonts/HANBatangB.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HANBatang';
+  font-weight: normal;
+  src: local('HANBatang'),url('fonts/HANBatang.eot');
+  src: url('fonts/HANBatang.eot?#iefix') format('embedded-opentype'),
+  url('fonts/HANBatang.woff2') format('woff2'),
+  url('fonts/HANBatang.woff') format('woff'),
+  url('fonts/HANBatang.ttf') format('truetype');
+  font-display: swap;
+}

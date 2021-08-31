@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Batang';
+  font-weight: normal;
+  src: local('Batang'), url('fonts/Batang.eot');
+  src: url('fonts/Batang.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Batang.woff2') format('woff2'),
+  url('fonts/Batang.woff') format('woff'),
+  url('fonts/Batang.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BatangChe';
+  font-weight: normal;
+  src: local('BatangChe'), url('fonts/BatangChe.eot');
+  src: url('fonts/BatangChe.eot?#iefix') format('embedded-opentype'),
+  url('fonts/BatangChe.woff2') format('woff2'),
+  url('fonts/BatangChe.woff') format('woff'),
+  url('fonts/BatangChe.ttf') format('truetype');
+  font-display: swap;
+}
