@@ -5,7 +5,7 @@
     url('fonts/TrajanPro-Bold.woff2') format('woff2'),
     url('fonts/TrajanPro-Bold.woff') format('woff'),
     url('fonts/TrajanPro-Bold.otf') format('opentype');
-    font-weight: bold;
+    font-weight: 700;
     font-display: swap;
 }
 

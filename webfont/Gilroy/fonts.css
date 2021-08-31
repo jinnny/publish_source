@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Gilroy';
-  font-weight: normal;
+  font-weight: 300;
   src: local('Gilroy-Light'), url('fonts/Gilroy-Light.eot');
   src: url('fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
   url('fonts/Gilroy-Light.woff2') format('woff2'),
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Gilroy';
-  font-weight: 600;
+  font-weight: 800;
   src: local('Gilroy-ExtraBold'), url('fonts/Gilroy-ExtraBold.eot');
   src: url('fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
   url('fonts/Gilroy-ExtraBold.woff2') format('woff2'),
