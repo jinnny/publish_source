@@ -51,7 +51,32 @@ css의 url 은 본인의 코드에 맞게 수정해주세요.
     1. 영어, 숫자
     2. 경량화 (0123456789,.만 포함- 숫자 표현시에만 사용)
     3. Weight: 2종 (Regular, Bold) 
-    
+12. 함초롬바탕
+    1. 한국어
+    2. 경량화 (기존: 한글 11,172자, 영문 94자, KS약물 986자)
+    3. Weight: 2종 (Regular, Bold)
+13. 바탕
+    1. 한국어
+    2. 경량화 (기존: 한글 11,172자, 영문 94자, KS약물 986자)
+    3. Weight: 1종 (Regular)
+14. 바탕체
+    1. 한국어
+    2. 경량화 (기존: 한글 11,172자, 영문 94자, KS약물 986자)
+    3. Weight: 1종 (Regular)
+15. Gilroy
+    1. 영어
+    2. Weight: 2종 (Light, ExtraBold)
+16. TrajanPro
+    1. 영어
+    2. Weight: 2종 (Regular, Bold)
+15. Montserrat
+    1. 영어
+    2. Weight: 3종 (Light, Medium, SemiBold)
+16. 스포카 한 산스 네오
+    1. 한국어
+    2. 경량화 (한글 2,350+ 추가 224자 총 2,574 출처:스포카 한 산스 네오 웹폰트)
+    3. Weight: 5종 (Thin, Light, Medium, Regular, Bold)
+
 * Weight의 경우  
     * ultralight = 100
     * thin = 200
