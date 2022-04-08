@@ -69,14 +69,17 @@ css의 url 은 본인의 코드에 맞게 수정해주세요.
 16. TrajanPro
     1. 영어
     2. Weight: 2종 (Regular, Bold)
-15. Montserrat
+17. Montserrat
     1. 영어
     2. Weight: 3종 (Light, Medium, SemiBold)
-16. 스포카 한 산스 네오
+18. 스포카 한 산스 네오
     1. 한국어
     2. 경량화 (한글 2,350+ 추가 224자 총 2,574 출처:스포카 한 산스 네오 웹폰트)
     3. Weight: 5종 (Thin, Light, Medium, Regular, Bold)
-
+19. S-CoreDream
+    1. 한국어
+    2. Weight: 9종 (Light, ExtraLight, Thin, Bold, Medium, Regular, ExtraBold, Heavy, Black)
+    
 * Weight의 경우  
     * ultralight = 100
     * thin = 200
