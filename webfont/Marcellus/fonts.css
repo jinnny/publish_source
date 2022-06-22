@@ -1,0 +1,10 @@
+/*normal*/
+@font-face {
+  font-family: 'Marcellus';
+  font-weight: 500;
+  src: local('Marcellus Regular'),
+  url('fonts/Marcellus-Regular.woff2') format('woff2'),
+  url('fonts/Marcellus-Regular.woff') format('woff'),
+  url('fonts/Marcellus-Regular.ttf') format('truetype');
+  font-display: swap;
+}

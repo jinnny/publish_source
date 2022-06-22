@@ -72,13 +72,20 @@ css의 url 은 본인의 코드에 맞게 수정해주세요.
 17. Montserrat
     1. 영어
     2. Weight: 3종 (Light, Medium, SemiBold)
-18. 스포카 한 산스 네오
+18. 스포카 한 산스 네오 SpoqaHanSansNeo
     1. 한국어
     2. 경량화 (한글 2,350+ 추가 224자 총 2,574 출처:스포카 한 산스 네오 웹폰트)
     3. Weight: 5종 (Thin, Light, Medium, Regular, Bold)
 19. S-CoreDream
     1. 한국어
     2. Weight: 9종 (Light, ExtraLight, Thin, Bold, Medium, Regular, ExtraBold, Heavy, Black)
+20. Pretendard
+    1. 한국어
+    2. Weight: 9종 (Light, ExtraLight, Thin, Bold, Medium, Regular, Bold, ExtraBold, Black)
+    3. https://cactus.tistory.com/306 에서 제공한 경량화 버전 적용
+21. Marcellus
+    1. 영어
+    2. Weight: 1종 (Regular)
     
 * Weight의 경우  
     * ultralight = 100
